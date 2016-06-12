@@ -12,7 +12,8 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://mhaidarhanif.com
 baseurl: /
-author: Haidar
+author: M Haidar Hanif
+nick: Haidar
 title: M Haidar Hanif | Open Strategy & Technology Integrator
 description: Helping people to be integrated and insightful, so that humanity can grow and thrive in the right place for good.
 avatar: avatar.jpg
@@ -23,6 +24,7 @@ linkedin: mhaidarhanif
 facebook: mhaidarhanif
 twitter: mhaidarh
 github: mhaidarh
+keybase: mhaidarh
 #stackoverflow: users/333346/m-haidar-hanif
 #disqus: username
 google_analytics: UA-27817850-1

@@ -1,5 +1,7 @@
 <div class="social">
   <h4>
+
+    <span>
     {% if site.email %}
     <a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i></a>
     {% endif %}
@@ -15,7 +17,11 @@
     {% if site.linkedin %}
     <a href="https://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
     {% endif %}
+    </span>
     
+    <br class="breaker">
+
+    <span>
     {% if site.facebook %}
     <a href="https://facebook.com/{{ site.facebook }}"><i class="fa fa-facebook"></i></a>
     {% endif %}
@@ -28,8 +34,14 @@
     <a href="https://github.com/{{ site.github }}"><i class="fa fa-github-alt"></i></a>
     {% endif %}
 
+    {% if site.keybase %}
+    <a href="https://keybase.io/{{ site.keybase }}"><i class="fa fa-key"></i></a>
+    {% endif %}
+
     {% if site.stackoverflow %}
     <a href="https://stackoverflow.com/{{ site.stackoverflow }}"><i class="fa fa-stack-overflow"></i></a>
     {% endif %}
+    </span>
+    
   </h4>
 </div>
