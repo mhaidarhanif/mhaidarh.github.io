@@ -1,0 +1,233 @@
+/* Main page with stikky-footer
+-------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Source Code Pro', sans-serif;
+  /* The html and body elements cannot have any padding or margin. */
+  border-top: 3px solid hsla(185, 70%, 50%, 1);
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  padding-bottom: 50px;	
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -65px;
+  /* Pad bottom by footer height */
+  /*padding: 0 0 60px;*/
+}
+
+/* Navbar
+-------------------------------------------------- */
+
+.navbar-static-top {
+  margin-bottom: 10px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-text {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #6b6b6b;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #6b6b6b;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #6b6b6b;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #6b6b6b;
+}
+.navbar-default .navbar-link {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-link:hover {
+  color: #6b6b6b;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #6b6b6b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #6b6b6b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #6b6b6b;
+    background-color: #ffffff;
+  }
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #34495e;
+}
+.container {
+  width: auto;
+  max-width: 900px;
+  text-align: center;
+}
+.container a {
+  color: hsla(185, 70%, 50%, 1);
+}
+.container a:hover {
+  color: hsla(185, 30%, 50%, 1);
+}
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+.panel-default h4 {
+  text-align: left;
+  line-height: 24px;
+  font-size: 22px;
+}
+.panel-default h5 {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+.panel-default h6 {
+  font-size: 15px;
+}
+.panel-default h4 a, h5 a {
+  color: hsla(185, 70%, 50%, 1);
+}
+.panel-default h4 a:hover, h5 a:hover {
+  color: hsla(185, 30%, 50%, 1);
+}
+.panel {
+  border-style: none;
+}
+.panel-body {
+  padding-top: -10px;
+  text-align: left;
+}
+.avatar {
+  border-radius: 10px;
+}
+.fa-hand-peace-o {
+  color: #FFB74D;
+}
+.fa-book {
+  color: #64B5F6;
+}
+.fa-gear {
+  color: #A1887F;
+}
+.fa-comment {
+  color: #81C784;
+}
+.social {
+  padding-top: 12px;
+  word-spacing: 25px;
+}
+.social i {
+  border: 1px solid hsla(0, 0%, 0%, 0);
+  padding: 5px;
+}
+.social i:hover {
+  border: 1px solid hsla(185, 70%, 50%, 1);
+  border-radius: 10px;
+}
+.social h4 > a {
+  color: #000000;
+}
+.social .fa-envelope {
+  color: #95a5a6;
+}
+.social .fa-search {
+  color: #4285f4;
+}
+.social .fa-google-plus {
+  color: #dc4e41;
+}
+.social .fa-linkedin {
+  color: #0077b5;
+}
+.social .fa-facebook {
+  color: #3b5998;
+}
+.social .fa-twitter {
+  color: #55acee;
+}
+.social .fa-github-alt {
+  color: #333333;
+}
+.social .fa-stack-overflow {
+  color: #fe7a15;
+}
+.blog-post{
+  padding-top: 15px;
+}
+.blog-title{
+  padding-top: 2px;
+}
+.related-posts h4 {
+  text-align: center;
+}
+.page-not-found {
+  padding-top: 20%;
+}
+.disqus {
+  padding-bottom: 15px;
+}
+.blogpost {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+/* Footer 
+-------------------------------------------------- */
+
+footer {
+  text-decoration: none !important;
+}
+.text-footer {
+  margin: 20px 0;
+}
+.text-footer i {
+  color: rgba(240, 200, 15, 1);
+}
+.muted {
+	color: #6b6b6b;
+}
+div.footer{
+  border-bottom: 5px solid hsla(185, 70%, 50%, 1);;
+}
+/* Set the fixed height of the footer here */
+/*.footer {
+  height: 50px;
+  padding-bottom: 15px;
+  
+}*/

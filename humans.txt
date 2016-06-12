@@ -1,0 +1,16 @@
+/* PROFILE */
+Name: M Haidar Hanif
+Email: <email(at)mhaidarhanif.com>
+Location: Earth
+Website: http://mhaidarhanif.com
+Google+: https://google.com/+MHaidarHanif
+Twitter: @mhaidarh / @mhaidarh_id
+GitHub: @mhaidarh
+
+/* THANKS */
+The Universe
+
+/* SITE */
+Last update: YYYY/MM/DD
+Standards: HTML5, CSS3, JavaScript
+Software: Arch Linux, Vim, Google Chrome

@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/mhaidarh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mhaidarhanif.org
+  * I am mhaidarh (https://keybase.io/mhaidarh) on keybase.
+  * I have a public key with fingerprint 5B7C ECD1 1297 5CF4 7F18  47A6 BED4 3734 60DE F204
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "5b7cecd112975cf47f1847a6bed4373460def204",
+            "host": "keybase.io",
+            "key_id": "bed4373460def204",
+            "uid": "97430f714707bc7ce185f7ebbbe22600",
+            "username": "mhaidarh"
+        },
+        "service": {
+            "hostname": "mhaidarhanif.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1418066742,
+    "expire_in": 157680000,
+    "prev": "8089af6935c939a76d8769e1a7b525284ee0a33b78dc046ba91c816bde0d2cd4",
+    "seqno": 15,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.6
+Comment: https://keybase.io/crypto
+
+yML3AnicO8LLzMDF+HrvUrZXR+ekM54+8K2UIaT1t1m1UlJ+SqWSVbVSdiqYSsvM
+S08tKijKzCtRslIyTTJPTk1OMTQ0sjQ3TU4zMU8ztDAxTzRLSk0xMTY3NjEzSElN
+MzIwUdJRysgvBukAGpOUWJyql5kPFANy4jNTgKJY1JeCJSzNTYwN0swNTcwNzJOS
+gZYZWpimmacmJSWlGhmZGRiAFBanFuUl5qYCVedmJGamJBZlKNXqKAFFyzKTU0Fu
+BlmNpiIxLzNNL78oHai/oCi/JD85Pwcom1FSUmAF0lxSWQBSXZ6aFA81Jz4pMy8F
+6HeghrLUouLM/DwlK0OgyuSSTJDBhiaGFgZmZuYmRjpKqRUFmUWp8ZkgFabmZhYG
+QACyJrUMaKSFgYVlYpqZpbFpsqWxZaK5WYqFuZllqmGieZKpkamRhUlqqkGisXGS
+uUVKsoGJWVKipWGyhaFZUkqqQYpRcgooZIpTC/PyQWYD3ZmYDjSzODM9L7GktChV
+qfbQwRgWBkYuBjZWJlD0MXBxCsAiNeID/3+HoLyGZ9oZAYvCN00IkGauUOFW7N4r
+MN19kzrDsUO7bwYfVp09XbKvP21GfNT6aqkdb7Z7PJhw+dfH44vZ+bLVptT+Ovfs
+Qd2K9UyNfr89YzqZOPU+3WD67rxk187vG/JreKe88G84dEYgoSblWlFawO54tW5h
+ywXnTf7ffDs7sekdy++wmcded7/i5HMy6Yt2ONqmPNFfpS67pePj4egdx60/r3NQ
+Emj1m5ToG5Wczuultv2JuJOTSuZEs531++L/dcQ4NFTkvZOs8p8T7FmSXVFZbeIe
++fXYyqf3Y/9yn8rc0CAuy/nrQAlDYeVixxUxDRZik88+Fj71dWPY28f/n79enHfv
+kP6zFT9dM+6+TeaWm3xZeq/6ha0JzGHix7JC5zoZKz761tAwSyDyj+Wd9uS7f4T4
+XvJM3bREMMf9oVKylODSjSbBDDrcvxzE+j7v51rOk1I84eO9431y3seULacF5S+x
+uGh0cM+TBz4bg796FPRMq1z38clps5Rp695sauHgKPhl9/rn6vLU6XMnGBw+wJi1
+ZGbOj4cvLtRuSzl16N2eolJbyR+bLQpY/sgVqhRPE3ui3L42/XM8c63isodla+/1
+7vy80zxG/FWsirn10St/d7h7zrF6uSm0pUN0uoJTX8HOJMVjhbJXhRdVlqyJr6mS
+LvK307hnf5zJd/uvTJvOKg6+b5dX7Wb0FamM3CbyQ00z9kFiKAC/Wpfx
+=eFuZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mhaidarh
+
+==================================================================
+
