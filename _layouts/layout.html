@@ -1,39 +1,50 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <meta name="author" content="{{ site.author }}" />
-    <meta name="description" content="{{ site.description }}">
-    <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
 
-    {% if page.title %}
-      <title>{{ page.title }}</title>
-    {% else %}
-      <title>{{ site.title }}</title>
-    {% endif %}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="{{ site.author }}" />
+  <meta name="description" content="{{ site.description }}">
 
-    <!-- Custom styles -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Caveat" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" />
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/main.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="194x194" href="/favicon-194x194.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="apple-mobile-web-app-title" content="M Haidar Hanif">
+  <meta name="application-name" content="M Haidar Hanif">
+  <meta name="msapplication-TileColor" content="#5bbad5">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#5bbad5"> {% if page.title %}
+  <title>{{ page.title }}</title>
+  {% else %}
+  <title>{{ site.title }}</title>
+  {% endif %}
 
-    <!-- Segment.io: Google Analytics + Heap -->
-    {% include analytics.html %}
-  </head>
+  <!-- Custom styles -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Caveat" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" />
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/main.css" />
 
-  <!-- Main Body-->
-  <body>
+  <!-- Segment.io: Google Analytics + Heap -->
+  {% include analytics.html %}
+</head>
+
+<!-- Main Body-->
+
+<body>
   <div id="wrap">
-    {% include header.html %}
-    {{ content }}
+    {% include header.html %} {{ content }}
   </div>
   {% include footer.html %}
 
   <script src="{{ site.baseurl }}static/js/main.js"></script>
-  </body>
+</body>
+
 </html>
