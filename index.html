@@ -1,6 +1,4 @@
----
-layout: home
----
+--- layout: home ---
 
 <script type="text/javascript">
 	analytics.track('HTTP GET / Visited home')
@@ -8,31 +6,27 @@ layout: home
 
 <section id="about">
 	<div class="container">
-	  <div>
-		  <img class="avatar" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
-	  </div>
-	  <h1 class="headline">
+		<div>
+			<img class="avatar" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+		</div>
+		<h1 class="headline">
  	 <i class="fa fa-suitcase"></i>
-      Need help with your tech stack or career?<br>
-      Let's work together to solve and optimize it
+      Need help with your tech or career?<br>
+      Let's learn and solve it together
     </h1>
-    <hr>
-	<p>
-      <i class="fa fa-hand-peace-o"></i>
-      I'm <strong>{{ site.nick }}</strong>. A modern IT Consultant and Full Stack Web Developer
-	</p>
-	  <p>
-      <i class="fa fa-book"></i>
-      Let's discuss our interests or solve your problems related to living and work enhancement, people and technology development, software and product engineering; also more you can find and need
-    </p>
-    <p>
-      <i class="fa fa-gear"></i>
-      I live in this world to help people integrate and optimize their various action, potential, knowledge, and insight so that humanity can grow and thrive within the right ecosystem for the greater good
-    </p>
-	  <p>
-      <i class="fa fa-comment"></i>
-      It's best to contact me by email to <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    </p>
-	  {% include social.html %}
+		<hr>
+		<p>
+			<i class="fa fa-hand-peace-o"></i> I'm <strong>{{ site.nick }}</strong>. An Educator, Full Stack Developer, IT Consultant, and Co-Founder + Mentor of <a href="https://impactbyte.com">Impact Byte</a>
+		</p>
+		<p>
+			<i class="fa fa-book"></i> Let's discuss our interests or solve your problems related to living and work enhancement, people and technology development, software and product engineering; also more you can find and need
+		</p>
+		<p>
+			<i class="fa fa-gear"></i> I live in this world to help people integrate and optimize their various action, potential, knowledge, and insight so that humanity can grow and thrive within the right ecosystem for the greater good
+		</p>
+		<p>
+			<i class="fa fa-comment"></i> It's best to contact me by email to <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+		</p>
+		{% include social.html %}
 	</div>
 </section>
